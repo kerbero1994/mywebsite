@@ -16,15 +16,17 @@ body {
 header {
 	width: 100%;
 	height: 60px;
-	background: #333;
-	color: #fff;
-
+	background: rgba(52,73,94,1);
+	color: #ececec;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 100;
 }
-
+header a{
+	color: #ececec;
+	text-decoration: none;
+}
 .contenedor {
 	width: 98%;
 	margin: auto;
@@ -46,7 +48,7 @@ p {
 
 
 section {
-	width: 100%; 
+	width: 100%;
 	margin-bottom: 25px;
 	text-align: center;
 	padding: 5px;
@@ -58,23 +60,23 @@ section {
 }
 
 #myself {
-	background: #333;
+	background: #34495E;
 	font-size: 24px;
-	color: #fff;
-	text-align: center;	
+	color: #ececec;
+	text-align: center;
 }
 
 #hobbies {
-	background: #333;
+	background: #34495E;
 	font-size: 24px;
-	color: #fff;
+	color: #ececec;
 	text-align: center;
 }
 
 #travel {
-	background: #333;
+	background: #34495E;
 	font-size: 24px;
-	color: #fff;
+	color: #ececec;
 	text-align: center;
 }
 
